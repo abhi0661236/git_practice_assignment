@@ -2,9 +2,9 @@
 
 let originalString = "racecar", reverseString="";
 
-for(let i = originalString.length; i>0; j++){
-    reverseString += originalString[j];
+for(let i = originalString.length-1; i>=0; i--){
+    reverseString += originalString[i];
 }
 
-if(originalString === reverseString) console.log(`The given string "${originalString}" is a palindrome.`);
-else console.log(`The given string "${originalString}" is not a palindrome.`);
+if(originalString === reverseString){ console.log(`The given string "${originalString}" is a palindrome.`)}
+else {console.log(`The given string "${originalString}" is not a palindrome.`)}
