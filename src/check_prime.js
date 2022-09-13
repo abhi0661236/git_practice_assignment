@@ -9,5 +9,5 @@ for(let i = num-1; i>=0; i--){
     }
 }
 
-if(isPrime) console.log(`The number ${num} is a prime number`);
-else console.log(`The number ${num} is not a prime number`);
+if(isPrime) {console.log(`The number ${num} is a prime number`)}
+else{console.log(`The number ${num} is not a prime number`)}
